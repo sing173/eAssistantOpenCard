@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        app:theme="@style/AlertDialog.AppCompat"
+        android:layout_marginTop="40dp"
+        >
+
+        <Button
+            android:id="@+id/btn_submit"
+            app:layout_widthPercent="45%"
+            android:layout_alignParentLeft="true"
+            android:layout_height="48dp"
+            android:background="@drawable/btn_blue_bg"
+            android:gravity="center"
+            android:text="@string/submit"
+            android:textColor="#fff"
+            />
+        <Button
+            android:id="@+id/btn_back"
+            app:layout_widthPercent="45%"
+            android:layout_alignParentRight="true"
+            android:layout_height="48dp"
+            android:background="@drawable/btn_blue_bg"
+            android:gravity="center"
+            android:text="@string/back_right"
+            android:textColor="#fff"
+            />
+    </android.support.percent.PercentRelativeLayout>
+</android.support.constraint.ConstraintLayout>

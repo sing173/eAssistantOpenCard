@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 密码验证 -->
+<MsgFieldList>
+    <MsgField id="HB_Acct" length="17" type="A_String" default="" />	<!-- 账号 -->
+    <MsgField id="HB_sub_acct_type" length="4" type="A_String" default="" />	<!-- 子账户类型 -->
+    <MsgField id="HB_VOLUME_NO" length="3" type="A_String" default="" />	<!-- 册号 -->
+    <MsgField id="HB_SEQ_NO" length="2" type="A_String" default="" />	<!-- 序号 -->
+    <MsgField id="HB_STATUSCHK" length="1" type="A_String" default="" />	<!-- 验证账号状态 -->
+    <MsgField id="HB_FRZCHK" length="1" type="A_String" default="" />	<!-- 验证账号是否冻结 -->
+    <MsgField id="HB_SETTLECHK" length="1" type="A_String" default="" />	<!-- 验证是否结算账户 -->
+    <MsgField id="HB_IBDType" length="4" type="A_String" default="" />	<!-- 重空类型 -->
+    <MsgField id="HB_SerialNo" length="20" type="A_String" default="" />	<!-- 重空号码 -->
+    <MsgField id="HB_LSTCHK" length="1" type="A_String" default="" />	<!-- 验证凭证挂失状态 -->
+    <MsgField id="HB_Password" length="30" type="A_String" default="" />	<!-- 密码 -->
+    <MsgField id="HB_WDLMETH" length="1" type="A_String" default="" />	<!-- 支取方式 -->
+    <MsgField id="HB_WDLMETHCHK" length="1" type="A_String" default="" />	<!-- 验证支取方式 -->
+    <MsgField id="HB_IDType" length="2" type="A_String" default="" />	<!-- 证件类型 -->
+    <MsgField id="HB_IDNum" length="32" type="A_String" default="" />	<!-- 证件号码 -->
+    <MsgField id="HB_IDCHECK" length="1" type="A_String" default="" />	<!-- 验证证件信息 -->
+</MsgFieldList>

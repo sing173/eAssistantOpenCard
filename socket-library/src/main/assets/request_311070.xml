@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 柜员精准信息查询 -->
+<MsgFieldList>
+    <MsgField id="MNG_Tlrno" length="7" type="A_String" default="" />	<!-- 柜员号 -->
+</MsgFieldList>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 个人客户基本信息创建 -->
+<MsgFieldList>
+    <MsgField id="HB_CustNum" length="17" type="A_String" default="" />	<!-- 客户号 -->
+</MsgFieldList>

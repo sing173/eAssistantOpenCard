@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            style="@style/print_voucher_bt_style"
+            android:id="@+id/btn_print_voucher_createId"
+            android:text="@string/creat_person_cus_id"
+            />
+
+        <Button
+            style="@style/print_voucher_bt_style"
+            android:id="@+id/btn_print_voucher_opencard"
+            android:text="@string/open_card"
+            />
+
+        <Button
+            style="@style/print_voucher_bt_style"
+            android:id="@+id/btn_print_voucher_activationcard"
+            android:text="@string/activation_card"
+            />
+
+        <Button
+            style="@style/print_voucher_bt_style"
+            android:id="@+id/btn_print_voucher_cardmessagesign"
+            android:text="@string/card_message_sign"
+            />
+
+        <Button
+            style="@style/print_voucher_bt_style"
+            android:id="@+id/btn_print_voucher_mobilebanksign"
+            android:text="@string/mobile_bank_sign"
+            />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="2000dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="@dimen/dp_10"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:id="@+id/print_voucher_tv1_date"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="交易日期"
+                    style="@style/print_voucher_item_tv_style"/>
+                <TextView
+                    android:id="@+id/print_voucher_tv2_custId"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="客户号"
+                    style="@style/print_voucher_item_tv_style"/>
+
+                <TextView
+                    android:id="@+id/print_voucher_tv3_custName"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="客户名称"
+                    style="@style/print_voucher_item_tv_style"/>
+
+                <TextView
+                    android:id="@+id/print_voucher_tv4_certType"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="证件类型"
+                    style="@style/print_voucher_item_tv_style"/>
+                <!--身份证号码-->
+                <TextView
+                    android:id="@+id/print_voucher_tv5_certId"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="证件号码"
+                    style="@style/print_voucher_item_tv_style"/>
+                <!--通用卡号 ，签约卡号，开卡卡号，签约卡号-->
+                <TextView
+                    android:id="@+id/print_voucher_tv6_cardNo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="卡号"
+                    style="@style/print_voucher_item_tv_style"/>
+                <!--账户，扣费账号-->
+                <TextView
+                    android:id="@+id/print_voucher_tv7_accountNo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="账号"
+                    style="@style/print_voucher_item_tv_style"/>
+                <TextView
+                    android:id="@+id/print_voucher_tv8_phoneNo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="手机号码"
+                    style="@style/print_voucher_item_tv_style"/>
+                    <!--卡产品名称,卡类型-->
+                <TextView
+                    android:id="@+id/print_voucher_tv9_cardProductName"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="卡产品名称"
+                    style="@style/print_voucher_item_tv_style"/>
+
+                <TextView
+                    android:id="@+id/print_voucher_tv10_chargeStandard"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:visibility="gone"
+                    android:text="收费标准"
+                    style="@style/print_voucher_item_tv_style"/>
+
+                <TextView
+                    android:id="@+id/print_voucher_tv11_limitChangeLowest"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="变动下限"
+                    style="@style/print_voucher_item_tv_style"/>
+
+                <TextView
+                    android:id="@+id/print_voucher_tv12_limitWarnLowest"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:visibility="gone"
+                    android:text="警告下限"
+                    style="@style/print_voucher_item_tv_style"/>
+
+                <TextView
+                    android:id="@+id/print_voucher_tv13_whetherShowLeft"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:visibility="gone"
+                    android:text="账户余额"
+                    style="@style/print_voucher_item_tv_style"/>
+
+                <TextView
+                    android:id="@+id/print_voucher_tv14_serviceProject"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:visibility="gone"
+                    android:text="服务项目"
+                    style="@style/print_voucher_item_tv_style"/>
+
+                <TextView
+                    android:id="@+id/print_voucher_tv15_branchNo"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="交易网点"
+                    style="@style/print_voucher_item_tv_style"/>
+
+                <TextView
+                    android:id="@+id/print_voucher_tv16_terminalId"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="终端编号"
+                    style="@style/print_voucher_item_tv_style"/>
+
+                <TextView
+                    android:id="@+id/print_voucher_tv17_tellerId"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="柜员号"
+                    style="@style/print_voucher_item_tv_style"/>
+
+                <TextView
+                    android:id="@+id/print_voucher_tv18_PrintTime"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="补打次数"
+                    style="@style/print_voucher_item_tv_style"/>
+                <!--补打打印标志位-->
+                <TextView
+                    android:id="@+id/print_voucher_tv19_printFlag"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="打印标志"
+                    style="@style/print_voucher_item_tv_style"/>
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/print_voucher_listview"
+                android:layout_width="2000dp"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/dp_10"
+                android:layout_weight="15" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+    <!--<Button
+        android:id="@+id/print_voucher_print"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="@string/print_info"
+        />-->
+</LinearLayout>

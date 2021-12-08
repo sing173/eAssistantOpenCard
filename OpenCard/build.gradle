@@ -1,0 +1,73 @@
+apply plugin: 'com.android.application'
+//加入下面这段代码
+apply plugin: 'com.jakewharton.butterknife'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion '30.0.2'
+
+    defaultConfig {
+        applicationId "com.dysen.fkezs.opencard"
+        minSdkVersion 18
+        targetSdkVersion 30
+        versionCode 12
+        versionName "1.1.1"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        ndk {
+            //选择要添加的对应cpu类型的.so库。
+            abiFilters 'armeabi', 'armeabi-v7a', 'armeabi-v8a', 'x86', 'x86_64'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:26.0.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+    //common 库
+    //    implementation project(':common_res')
+    implementation project(':common-library')
+    implementation project(':ble-lib')
+    implementation project(':socket-library')
+    implementation project(':android_gif_drawable')
+    //kjframe
+    implementation project(':kjframe-library')
+    //百分比 布局
+    implementation 'com.android.support:percent:26.0.0'
+    //注解
+    implementation 'com.jakewharton:butterknife:8.5.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    //recyclerview
+    implementation 'com.android.support:recyclerview-v7:26.0.0'
+    //cardview
+    implementation 'com.android.support:cardview-v7:26.0.0'
+    implementation 'q.rorbin:badgeview:1.1.3'
+    //    backClip
+    //    compile files('libs/AndroidPrinterSDK2.2.jar')
+    //    compile files('libs/d2xx.jar')
+    //    compile files('libs/OutputUtil.jar')
+    //    compile files('libs/siecom.jar')
+    //    compile files('libs/sdsesInterface.jar')
+    //    compile files('libs/MPrintLib_Release.jar')
+    //    compile files('libs/SDSES_WltNoLic_1.2.jar')
+    //    compile files('libs/geitCj1000_1.0.2.jar')
+    implementation files('libs/gifview.jar')
+    implementation files('libs/logUtil.jar')
+    implementation files('libs/lite-orm-1.9.2.jar')
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 短信验证 -->
+<MsgFieldList>
+    <MsgField id="BkNum1" length="6" type="A_String" default="" />	<!-- 短信关联码 -->
+</MsgFieldList>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <FrameLayout
+        android:id="@+id/fl_idcard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+            <TextView
+                android:id="@+id/tv_exit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:visibility="gone"
+                android:background="@drawable/ic_no"/>
+        </LinearLayout>
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gif"
+            android:layout_width="500dp"
+            android:layout_height="500dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/tv_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/data_processing"
+            android:layout_gravity="center"
+            android:textSize="22sp"
+            android:visibility="gone"
+            />
+    <com.dysen.commom_library.views.UberProgressView
+        android:id="@+id/uber"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fading_circle_color="@android:color/holo_blue_dark"
+        app:stationary_circle_color="@android:color/holo_blue_dark"
+        app:orbiting_circle_color="@android:color/holo_blue_dark"
+        app:direction="counterclockwise"
+        app:orbiting_circle_radius="6dp"
+        app:stationary_circle_radius="12dp"
+        android:visibility="gone"/>
+</FrameLayout>
+</LinearLayout>

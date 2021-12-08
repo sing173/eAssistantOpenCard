@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 本地授权交易 -->
+<MsgFieldList>
+    <MsgField id="AuthSupervisor_ID" length="7" type="A_String" default="" />	<!-- 授权柜员号 -->
+    <MsgField id="HB_Authorization_Branch" length="5" type="A_String" default="" />	<!-- 机构号 -->
+    <MsgField id="HB_Authorization_Option" length="1" type="A_String" default="1" />	<!-- 空 -->
+    <MsgField id="BkFlag1" length="1" type="A_String" default="0" />	<!-- 空 -->
+    <MsgField id="FPI_tx_model" length="1024" type="A_String" default="" />	<!-- 指纹特征值 -->
+</MsgFieldList>

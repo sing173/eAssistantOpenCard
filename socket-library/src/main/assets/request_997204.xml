@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 客户开卡 -->
+<MsgFieldList>
+    <MsgField id="HB_CustNumber" length="17" type="A_String" default="" />	<!-- 客户号 -->
+    <MsgField id="HB_Pan" length="19" type="A_String" default="" />	<!-- 卡号 -->
+    <MsgField id="HB_Pwd" length="16" type="A_String" default="" />	<!-- 密码 -->
+    <MsgField id="HB_DefInteger1" length="4" type="A_String" default="" />	<!-- 产品类型 -->
+    <MsgField id="HB_DefInteger2" length="4" type="A_String" default="" />	<!-- 产品子类 -->
+    <MsgField id="HB_Flag" length="1" type="A_String" default="" />	<!-- 账户类型 -->
+</MsgFieldList>

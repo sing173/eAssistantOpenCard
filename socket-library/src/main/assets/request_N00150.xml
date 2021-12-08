@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 电子渠道注销 -->
+<MsgFieldList>
+    <MsgField id="BkCertNo" length="30" type="A_String" default="" />	<!-- 证件号码 -->
+    <MsgField id="BkType2" length="3" type="A_String" default="" />	<!-- 证件类型 -->
+    <MsgField id="BkName1" length="60" type="A_String" default="" />	<!-- 客户名称 -->
+    <MsgField id="BkType1" length="2" type="A_String" default="" />	<!-- 操作描述 -->
+    <MsgField id="BkTeller" length="7" type="A_String" default="" />	<!-- 柜员编号 -->
+    <MsgField id="BkAuthTeller" length="7" type="A_String" default="" />	<!-- 授权员编号 -->
+</MsgFieldList>

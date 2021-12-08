@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_title_layout"/>
+
+    <FrameLayout
+        android:id="@+id/fl_idcard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:layout_above="@+id/btn_connect"
+        >
+
+        <TextView
+            android:id="@+id/tv_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/data_processing"
+            android:layout_gravity="center"
+            android:textSize="22sp"
+            android:visibility="visible"
+            />
+        <com.dysen.commom_library.views.UberProgressView
+            android:id="@+id/uber"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fading_circle_color="@android:color/holo_blue_dark"
+            app:stationary_circle_color="@android:color/holo_blue_dark"
+            app:orbiting_circle_color="@android:color/holo_blue_dark"
+            app:direction="counterclockwise"
+            app:orbiting_circle_radius="6dp"
+            app:stationary_circle_radius="12dp"/>
+    </FrameLayout>
+    <Button
+        android:id="@+id/btn_connect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_back"
+        android:visibility="gone"
+        android:layout_margin="10dp"
+        android:background="@drawable/preference_single_item"
+        android:text="选择连接" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/preference_single_item"
+
+        android:text="@string/button_back" />
+</RelativeLayout>

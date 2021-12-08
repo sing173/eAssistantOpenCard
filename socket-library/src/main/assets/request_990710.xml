@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 客户三类户查询提示 -->
+<MsgFieldList>
+    <MsgField id="customerNumber" length="16" type="A_String" default="" />	<!-- 客户号 -->
+    <MsgField id="settleAccountType" length="1" type="A_String" default="" />	<!-- 三类户标志 -->
+    <MsgField id="creditUnionCode" length="4" type="A_String" default="" />	<!-- 法人机构号 -->
+    <MsgField id="filler" length="961" type="A_String" default="" />	<!-- 备用 -->
+</MsgFieldList>

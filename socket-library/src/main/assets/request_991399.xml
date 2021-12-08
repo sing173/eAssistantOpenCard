@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 凭卡号查询短信签约限免期限 -->
+<MsgFieldList>
+    <MsgField id="SMS_Credit_No1" length="19" type="A_String" default="" />	<!-- 卡号 -->
+</MsgFieldList>

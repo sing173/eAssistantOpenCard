@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 工作密钥的获取、更新 -->
+<MsgFieldList>
+    <MsgField id="BkCertType" length="2" type="A_String" default="" />	<!-- 01-主秘钥，02-工作秘钥 -->
+    <MsgField id="BkChnlNo" length="6" type="A_String" default="" />	<!-- HOST,移动营 必输 -->
+    <MsgField id="BkDetail1" length="80" type="A_String" default="" />	<!--String	备注 -->
+</MsgFieldList>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 电子渠道个人信息查询 -->
+<MsgFieldList>
+    <MsgField id="BkDesc4" length="30" type="A_String" default="" />	<!-- 网银客户号 -->
+    <MsgField id="BkName1" length="128" type="A_String" default="" />	<!-- 客户名称 -->
+    <MsgField id="BkType2" length="3" type="A_String" default="" />	<!-- 证件类型 -->
+    <MsgField id="BkCertNo" length="30" type="A_String" default="" />	<!-- 证件号码 -->
+    <MsgField id="HB_EngName1" length="30" type="A_String" default="" />	<!-- 英文名称 -->
+    <MsgField id="HB_phoneno" length="20" type="A_String" default="" />	<!-- 手机号码 -->
+    <MsgField id="HB_Address" length="60" type="A_String" default="" />	<!-- 电子邮箱 -->
+    <MsgField id="HB_Addr1" length="150" type="A_String" default="" />	<!-- 联系地址 -->
+    <MsgField id="HB_PostCode1" length="6" type="A_String" default="" />	<!-- 邮政编号 -->
+    <MsgField id="HB_ContactPhone" length="20" type="A_String" default="" />	<!-- 联系电话 -->
+    <MsgField id="BkDesc2" length="10" type="A_String" default="" />	<!-- 网银认证方式 -->
+    <MsgField id="BkListNo1" length="20" type="A_String" default="" />	<!-- 网银机具编号 -->
+    <MsgField id="BkListNo2" length="20" type="A_String" default="" />	<!-- 网银客户经理编号 -->
+    <MsgField id="BkName2" length="30" type="A_String" default="" />	<!-- 网银客户经理名称 -->
+    <MsgField id="BkDesc3" length="10" type="A_String" default="" />	<!-- 手机认证方式 -->
+    <MsgField id="BkListNo3" length="20" type="A_String" default="" />	<!-- 机具编号 -->
+    <MsgField id="BkListNo4" length="20" type="A_String" default="" />	<!-- 手机客户经理编号 -->
+    <MsgField id="BkName3" length="30" type="A_String" default="" />	<!-- 手机客户经理名称 -->
+    <MsgField id="BkFlag1" length="1" type="A_String" default="" />	<!-- 是否开通网银 -->
+    <MsgField id="BkFlag2" length="1" type="A_String" default="" />	<!-- 是否开通手机银行 -->
+</MsgFieldList>

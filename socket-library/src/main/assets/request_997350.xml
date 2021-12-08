@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 根据证件号及户名查询客户号 -->
+<MsgFieldList>
+    <MsgField id="HB_CERT_1" length="32" type="A_String" default="" />	<!-- 证件号码 -->
+    <MsgField id="HB_CertType1" length="2" type="A_String" default="01" />	<!-- 证件类型 -->
+    <MsgField id="HB_GirdName" length="120" type="A_String" default="" />	<!-- 户名 -->
+</MsgFieldList>

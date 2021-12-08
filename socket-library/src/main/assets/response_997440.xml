@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 凭卡号查询产品信息 -->
+<MsgFieldList>
+    <MsgField id="HB_cardProduct" length="40" type="A_String" default="" />	<!-- 卡产品名称 -->
+    <MsgField id="HB_CustName" length="40" type="A_String" default="" />	<!-- 客户名称 -->
+    <MsgField id="HB_linkAccount1" length="17" type="A_String" default="" />	<!-- 客户主账号 -->
+    <MsgField id="HB_IDNumber" length="32" type="A_String" default="" />	<!-- 证件号码-->
+</MsgFieldList>

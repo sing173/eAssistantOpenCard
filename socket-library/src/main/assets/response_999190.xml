@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 密码验证 -->
+<MsgFieldList>
+    <MsgField id="HB_PROD_CODE" length="8" type="A_String" default="" />	<!-- 产品代码 -->
+    <MsgField id="HB_HOME_BRANCH" length="5" type="A_String" default="" />	<!-- 开户行 -->
+    <MsgField id="HB_BRANCHNAME" length="70" type="A_String" default="" />	<!-- 开户行名称 -->
+    <MsgField id="HB_cust_no" length="17" type="A_String" default="" />	<!-- 客户号 -->
+    <MsgField id="HB_CUST_NAME" length="80" type="A_String" default="" />	<!-- 客户名称 -->
+    <MsgField id="HB_id_type" length="2" type="A_String" default="" />	<!-- 证件类型 -->
+    <MsgField id="HB_id_no" length="32" type="A_String" default="" />	<!-- 证件号码 -->
+    <MsgField id="HB_acct_status" length="2" type="A_String" default="" />	<!-- 账号状态 -->
+    <MsgField id="HB_ibd_status" length="2" type="A_String" default="" />	<!-- 凭证状态 -->
+</MsgFieldList>

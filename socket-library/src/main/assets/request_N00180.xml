@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 电子渠道账户维护 -->
+<MsgFieldList>
+    <MsgField id="BkCustNo" length="30" type="A_String" default="" />	<!-- 核心客户号 -->
+    <MsgField id="BkAcctNo" length="32" type="A_String" default="" />	<!-- 账号 -->
+    <MsgField id="BkType2" length="2" type="A_String" default="" />	<!-- 操作类型 -->
+    <MsgField id="BkType1" length="3" type="A_String" default="" />	<!-- 账号类型 -->
+    <MsgField id="BkVchType" length="2" type="A_String" default="" />	<!-- 凭证类型 -->
+    <MsgField id="BkListNo2" length="30" type="A_String" default="" />	<!-- 核心开户网点 -->
+    <MsgField id="BkName2" length="100" type="A_String" default="" />	<!-- 核心开户网点名称 -->
+    <MsgField id="BkCurrNo" length="3" type="A_String" default="" />	<!-- 币种 -->
+    <MsgField id="BkBreakAmt" length="18" type="AN" default="" />	<!-- 网银单笔限额 -->
+    <MsgField id="BkIntrAmt" length="18" type="AN" default="" />	<!-- 网银日累计限额 -->
+    <MsgField id="BkTeller" length="7" type="A_String" default="" />	<!-- 柜员编号 -->
+    <MsgField id="BkAuthTeller" length="7" type="A_String" default="" />	<!-- 授权员编号 -->
+    <MsgField id="HB_cutomerNo" length="32" type="A_String" default="" />	<!-- 核心客户号 -->
+    <MsgField id="BkDesc5" length="10" type="A_String" default="0" />	<!-- 网银日累计笔数 -->
+    <MsgField id="BkTaxAmt" length="18" type="AN" default="" />	<!-- 网银年累计限额 -->
+    <MsgField id="BkAmt" length="18" type="AN" default="" />	<!-- 手机单笔限额 -->
+    <MsgField id="BkAmt1" length="18" type="AN" default="" />	<!-- 手机日累计限额 -->
+    <MsgField id="BkDesc4" length="10" type="A_String" default="" />	<!-- 手机日累计笔数 -->
+    <MsgField id="BkAmt3" length="18" type="AN" default="" />	<!-- 手机年累计限额 -->
+</MsgFieldList>

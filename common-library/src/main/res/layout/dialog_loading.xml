@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dialog_loading_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <com.dysen.commom_library.views.UberProgressView
+        android:id="@+id/uber_loading"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:layout_gravity="center"
+        app:direction="counterclockwise"
+        app:fading_circle_color="@android:color/holo_blue_dark"
+        app:orbiting_circle_color="@android:color/holo_blue_dark"
+        app:stationary_circle_color="@android:color/holo_blue_dark"
+        app:orbiting_circle_radius="6dp"
+        app:stationary_circle_radius="12dp"/>
+
+        <TextView
+            android:id="@+id/tv_pgr_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:text="拼命加载中..."
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="16sp" />
+
+        <ProgressBar
+            android:id="@+id/pgr_loading"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center_horizontal"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateDrawable="@drawable/dialog_loading"
+            android:indeterminateOnly="true"
+            android:visibility="gone" />
+
+    </FrameLayout>
+</LinearLayout>

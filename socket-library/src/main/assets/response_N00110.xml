@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 电子渠道签约 -->
+<MsgFieldList>
+    <MsgField id="BkDesc4" length="32" type="A_String" default="" />	<!-- 客户号 -->
+</MsgFieldList>

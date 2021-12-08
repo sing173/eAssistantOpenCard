@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/transparent">
+
+    <LinearLayout
+        android:id="@+id/ll_update_params"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="18sp"
+                android:text="请选择参数配置" />
+            <TextView
+                android:id="@+id/tv_exit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ic_no" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TableRow
+                style="@style/common_tablerow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    style="@style/common_tablerow_text"
+                    android:gravity="center_horizontal"
+                    android:text="@string/serverIP"
+                    />
+
+                <EditText
+                    android:id="@+id/et_serverIp"
+                    style="@style/common_tablerow_edit"
+                    android:layout_width="180dp"
+                    android:hint="请输入IP地址"
+                    android:text="186.16.6.163"
+                    android:focusable="true"
+                    />
+
+            </TableRow>
+            <TableRow
+                style="@style/common_tablerow"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    style="@style/common_tablerow_text"
+                    android:gravity="center_horizontal"
+                    android:text="@string/serverPort"
+                    />
+
+                <EditText
+                    android:id="@+id/et_serverPort"
+                    style="@style/common_tablerow_edit"
+                    android:hint="请输入IP端口"
+                    android:layout_width="180dp"
+                    android:inputType="number"
+                    android:text="8088"
+                    android:focusable="true"
+                    />
+
+            </TableRow>
+        </LinearLayout>
+        <TextView
+            style="@style/common_tablerow_text"
+            android:layout_height="45dp"
+            android:layout_width="wrap_content"
+            android:text="可选参数"
+            android:drawableLeft="@drawable/ic_green_susseces"
+            />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="15dp"
+            >
+            <RadioButton
+                android:id="@+id/rbt_0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="生产环境:186.16.6.163 端口8088"
+                android:checked="true"/>
+            <RadioButton
+                android:id="@+id/rbt_1"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="测试环境:192.168.1.90 端口8088"/>
+        </RadioGroup>
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                app:theme="@style/AlertDialog.AppCompat"
+                >
+
+                <Button
+                    android:id="@+id/btn_submit"
+                    style="@style/common_open_card_button"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:src="@color/aquamarine"
+                    android:text="@string/submit_btn"
+                    app:layout_widthPercent="45%"/>
+            </android.support.percent.PercentRelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

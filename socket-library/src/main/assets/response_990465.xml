@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 根据证件号查询客户信息 -->
+<MsgFieldList>
+    <MsgField id="HB_NumSubParts" length="1" type="N" default="" sub="true">	<!-- 循环次数 -->
+    	<SubField id="HB_GridCustNum" length="17" type="A_String" default="" />	<!-- 客户号 -->
+    	<SubField id="HB_CustName1" length="120" type="A_String" default="" />	<!-- 客户姓名 -->
+    </MsgField>
+</MsgFieldList>

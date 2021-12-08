@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 柜员临时签退交易 -->
+<MsgFieldList>
+    <MsgField id="HB_tellerNo1" length="7" type="A_String" default="" />	<!-- 柜员号 -->
+    <MsgField id="HB_Teller_PW" length="16" type="A_String" default="" />	<!-- 密码 -->
+    <MsgField id="HB_branch1" length="5" type="A_String" default="" />	<!-- 机构号 -->
+    <MsgField id="HB_terminalId1" length="3" type="A_String" default="" />	<!-- 终端号 -->
+    <MsgField id="FPI_tx_model" length="1024" type="A_String" default="" />	<!-- 指纹特征值 -->
+    <MsgField id="BkCertType" length="1" type="A_String" default="0" />	<!-- 校验方式 -->
+    <MsgField id="BkAuthTeller" length="7" type="A_String" default="" />	<!-- 授权柜员 -->
+</MsgFieldList>

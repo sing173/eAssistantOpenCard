@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/transparent">
+
+    <LinearLayout
+        android:id="@+id/ll_withdrawal_teller_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+            <TextView
+                android:id="@+id/tv_exit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_no" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="24dp"
+            android:orientation="vertical">
+
+            <TableRow
+                style="@style/common_tablerow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                >
+
+                <TextView
+                    style="@style/common_tablerow_text"
+                    android:gravity="center_horizontal"
+                    android:text="@string/teller_id"
+                    />
+
+                <EditText
+                    android:id="@+id/edt_teller_id"
+                    style="@style/common_tablerow_edit"
+                    android:hint="@string/hint_teller_id"
+                    android:focusable="true"
+                    />
+
+            </TableRow>
+            <android.support.percent.PercentRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                app:theme="@style/AlertDialog.AppCompat"
+                >
+
+                <Button
+                    android:id="@+id/btn_submit"
+                    style="@style/common_open_card_button"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@color/aquamarine"
+                    android:text="@string/submit"
+                    app:layout_widthPercent="45%" />
+            </android.support.percent.PercentRelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

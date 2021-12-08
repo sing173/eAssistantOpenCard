@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 电子渠道已开通查询 -->
+<MsgFieldList>
+    <MsgField id="BkCustNo" length="30" type="A_String" default="" />	<!-- 网银客户号 -->
+    <MsgField id="BkFlag1" length="1" type="A_String" default="" />	<!-- 是否开通网银 -->
+    <MsgField id="BkFlag2" length="1" type="A_String" default="" />	<!-- 是否开通手机银行 -->
+    <MsgField id="BkDesc2" length="10" type="A_String" default="" />	<!-- 网银认证方式 -->
+    <MsgField id="BkDesc3" length="10" type="A_String" default="" />	<!-- 手机认证方式 -->
+</MsgFieldList>

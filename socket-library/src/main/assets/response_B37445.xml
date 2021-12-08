@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 卡密码校验 -->
+<MsgFieldList>
+	<MsgField id="HB_Pan" length="19" type="A_String" default="" />	<!-- 卡号 -->
+    <MsgField id="HB_CardBin" length="1" type="A_String" default="" />	<!-- 卡bin -->
+    <MsgField id="HB_CardNo" length="5" type="A_String" default="" />	<!-- 卡产品代码 -->
+    <MsgField id="HB_issuingIndex" length="1" type="A_String" default="" />	<!-- 卡序号 -->
+    <MsgField id="HB_primaryCard" length="19" type="A_String" default="" />	<!-- 主卡 -->
+	<MsgField id="HB_DefaultString60" length="18" type="A_String" default="" />	<!-- 卡状态值 -->
+    <MsgField id="HB_CardDesc" length="30" type="A_String" default="" />	<!-- 卡状态 -->
+    <MsgField id="HB_linkAccount1" length="17" type="A_String" default="" />	<!-- 主账户 -->
+    <MsgField id="HB_issuingBranch" length="5" type="A_String" default="" />	<!-- 发卡机构 -->
+    <MsgField id="HB_custNo" length="17" type="A_String" default="" />	<!-- 客户号 -->
+    <MsgField id="HB_CustName" length="40" type="A_String" default="" />	<!-- 客户姓名 -->
+	<MsgField id="HB_DefaultString11" length="60" type="A_String" default="" />	<!-- 客户姓名2 -->
+    <MsgField id="HB_respTime1" length="8" type="A_String" default="" />	<!-- 卡有效期 -->
+    <MsgField id="HB_dataline" length="16" type="A_String" default="" />	<!-- 授权验证响应信息ARPC -->
+    <MsgField id="HB_Num1" length="2" type="A_String" default="" />	<!-- 返回账户记录数 -->
+    <MsgField id="HB_Line2" length="35" type="A_String" default="" />	<!-- 备用字段 -->
+</MsgFieldList>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 工作密钥的获取、更新 -->
+<MsgFieldList>
+    <MsgField id="BkName1" length="64" type="A_String" default="" />	<!-- 密钥密文 -->
+    <MsgField id="BkName2" length="32" type="A_String" default="" />	<!-- 密钥校验值 -->
+    <MsgField id="BkName3" length="80" type="A_String" default="" />	<!--String	备注 -->
+</MsgFieldList>

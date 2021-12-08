@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 柜员指纹校验 -->
+<MsgFieldList>
+    <MsgField id="MNG_tellerno" length="10" type="A_String" default="" />	<!-- 流水 -->
+    <MsgField id="FPI_tx_model" length="1024" type="A_String" default="" />	<!-- 柜员号 -->
+    <MsgField id="BkDetail8" length="120" type="A_String" default="0" />	<!-- 备注 -->
+</MsgFieldList>

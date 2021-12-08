@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 根据证件号及户名查询客户号 -->
+<MsgFieldList>
+    <MsgField id="HB_cust_no" length="17" type="A_String" default="" />	<!-- 客户号 -->
+    <MsgField id="HB_GirdName" length="120" type="A_String" default="" />	<!-- 客户姓名 -->
+</MsgFieldList>

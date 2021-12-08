@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">socket-library</string>
+    <string name="hello_world">hello socket test</string>
+</resources>

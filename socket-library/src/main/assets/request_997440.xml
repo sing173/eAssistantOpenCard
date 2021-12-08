@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 凭卡号查询产品信息 -->
+<MsgFieldList>
+    <MsgField id="HB_Pan" length="19" type="A_String" default="" />	<!-- 卡号 -->
+</MsgFieldList>

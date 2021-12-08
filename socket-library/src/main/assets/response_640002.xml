@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 验证短信发送 -->
+<MsgFieldList>
+    <MsgField id="BkPCode" length="20" type="A_String" default="" />	<!-- 短信关联码 -->
+</MsgFieldList>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 根据证件号查询客户信息 -->
+<MsgFieldList>
+    <MsgField id="HB_Option" length="1" type="A_String" default="S" />	<!-- 选项 -->
+    <MsgField id="HB_IDNum" length="32" type="A_String" default="" />	<!-- 证件号码 -->
+    <MsgField id="HB_IDType" length="2" type="A_String" default="01" />	<!-- 证件类型 -->
+</MsgFieldList>

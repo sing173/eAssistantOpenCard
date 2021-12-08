@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 卡/账户短信签约 -->
+<MsgFieldList>
+    <MsgField id="SMS_Credit_No1" length="19" type="A_String" default="" />	<!-- 卡号 -->
+    <MsgField id="BkPwd" length="16" type="A_String" default="" />	<!-- 密码 -->
+    <MsgField id="SMS_signacct" length="32" type="A_String" default="" />	<!-- 账号 -->
+    <MsgField id="SMS_id_type" length="2" type="A_String" default="01" />	<!-- 证件类型 -->
+    <MsgField id="SMS_id" length="32" type="A_String" default="" />	<!-- 证件号码 -->
+    <MsgField id="SMS_custname1" length="40" type="A_String" default="" />	<!-- 客户名称 -->
+    <MsgField id="SMS_Sign_Date" length="8" type="A_String" default="" />	<!-- 签约日期 -->
+    <MsgField id="SMS_Num" length="2" type="A_String" default="" />	<!-- 签约手机个数 -->
+    <MsgField id="SMS_sign_telphone" length="200" type="A_String" default="" />	<!-- 签约手机号 -->
+    <MsgField id="SMS_sf_bz" length="2" type="A_String" default="" />	<!-- 收费标准 -->
+    <MsgField id="SMS_totalamount" length="18" type="AN" default="" />	<!-- 收费金额 -->
+    <MsgField id="BkType2" length="3" type="A_String" default="" />	<!-- 免费月份 -->
+    <MsgField id="BkAmt" length="18" type="AN" default="" />	<!-- 金额变动下限 -->
+    <MsgField id="BkAmt1" length="18" type="AN" default="" />	<!-- 余额提醒下线 -->
+    <MsgField id="BkFlg" length="1" type="A_String" default="" />	<!-- 是否显示余额 -->
+</MsgFieldList>

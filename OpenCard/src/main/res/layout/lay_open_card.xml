@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:stretchColumns="1">
+            <TableRow
+                style="@style/common_tablerow">
+
+                <TextView
+                    style="@style/common_tablerow_text"
+                    android:text="@string/customerNum"
+                    />
+
+                <EditText
+                    android:id="@+id/customerNum"
+                    style="@style/common_tablerow_edit"
+                    android:hint="@string/hint_cus_id"
+                    />
+            </TableRow>
+            <TableRow
+                style="@style/common_tablerow">
+
+                <TextView
+                    style="@style/common_tablerow_text"
+                    android:text="@string/accountType"
+                    />
+
+                <LinearLayout
+                    style="@style/common_lay_bg">
+
+                    <Spinner
+                        android:id="@+id/account_type"
+                        style="@style/common_rate_edit"
+                        />
+                </LinearLayout>
+            </TableRow>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <include layout="@layout/lay_card_pwd"/>
+            </TableLayout>
+
+            <TableRow
+                style="@style/common_tablerow">
+
+                <TextView
+                    style="@style/common_tablerow_text"
+                    android:text="@string/cardTypeProduct"/>
+
+                <EditText
+                    android:id="@+id/card_type_product"
+                    style="@style/common_tablerow_edit"
+                    android:hint="@string/hint_card_type_product"
+                    />
+            </TableRow>
+            <TableRow
+                style="@style/common_tablerow">
+
+                <TextView
+                    style="@style/common_tablerow_text"
+                    android:text="@string/accountTypeProduct"
+                    />
+
+                <LinearLayout
+                    style="@style/common_lay_bg">
+
+                    <Spinner
+                        android:id="@+id/account_type_product"
+                        style="@style/common_rate_edit"
+                        />
+                </LinearLayout>
+            </TableRow>
+            <TableRow
+                style="@style/common_tablerow">
+
+                <TextView
+                    style="@style/common_tablerow_text"
+                    android:text="@string/productChild"
+                    />
+
+                <LinearLayout
+                    style="@style/common_lay_bg">
+
+                    <Spinner
+                        android:id="@+id/product_child"
+                        style="@style/common_rate_edit"
+                        />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+        <android.support.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:theme="@style/AlertDialog.AppCompat"
+            android:layout_marginTop="40dp"
+            >
+
+            <Button
+                android:id="@+id/submit"
+                app:layout_widthPercent="45%"
+                android:layout_alignParentLeft="true"
+                style="@style/common_open_card_button"
+                android:text="@string/submit"
+                />
+            <Button
+                android:id="@+id/cancel"
+                app:layout_widthPercent="45%"
+                android:layout_alignParentRight="true"
+                style="@style/common_open_card_button"
+                android:text="@string/cancel"
+                />
+        </android.support.percent.PercentRelativeLayout>
+    </LinearLayout>
+</LinearLayout>

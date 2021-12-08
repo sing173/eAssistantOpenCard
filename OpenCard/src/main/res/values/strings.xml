@@ -1,0 +1,206 @@
+<resources>
+    <string name="app_name">福卡e助手</string>
+    <string name="app_name_cn">福卡e助手</string>
+    <string name="safe_exit">安全退出</string>
+    <!--string -->
+    <string name="customerName">客户姓名</string>
+    <string name="customerType">客户类型</string>
+    <string name="certType">证件类型</string>
+    <string name="cus_sex">性别</string>
+    <string name="certNumber">证件号码</string>
+    <string name="certNumber2">确认证件号码</string>
+    <string name="certIssuedStart">证件签发日期</string>
+    <string name="certIssuedEnd">证件到期日期</string>
+    <string name="cus_add">国家，省，市</string>
+    <string name="cus_add_info">家庭详细地址地址</string>
+    <string name="telephone_um">移动电话</string>
+    <string name="postal_code">邮政编码</string>
+    <string name="professional_code">职业代码</string>
+    <string name="teller_id">柜员号</string>
+    <string name="teller_name">柜员姓名</string>
+    <string name="org_id">机构号</string>
+    <string name="terminal_id">终端号</string>
+    <string name="teller_finger">柜员指纹</string>
+    <string name="read_card">读卡</string>
+    <string name="read_finger">读指纹</string>
+    <string name="read_pwd">读密码</string>
+    <string name="read_finger_success">读指纹成功</string>
+    <string name="read_finger_fialed">读指纹失败</string>
+    <string name="teller_login">登录</string>
+    <string name="login_date">登录时间</string>
+    <string name="mandatory_withdrawal">强制签退</string>
+    <string name="temp_withdrawal">临时签退</string>
+    <string name="data_processing">正在处理数据！</string>
+    <string name="open_card">银行开卡</string>
+    <string name="activation_card">卡激活</string>
+    <string name="authorize_teller_num">授权柜员号</string>
+    <!-- <string name=""></string>-->
+    <string name="teller_claim">本交易有以下授权：要求最低</string>
+    <string name="teller_level">级柜员授权</string>
+    <string name="authorize_code">授权码：</string>
+    <string name="authorize_info">授权描述：</string>
+    <string name="authorize_f100">F100：</string>
+    <string name="activation_authorize">强制授权：</string>
+    <string name="sign_out">签退</string>
+    <string name="check_finger">请确保指纹读取成功！</string>
+    <string name="submit_hint">(三秒后自动关闭)</string>
+    <string name="submit_btn">确认</string>
+    <string name="submit_success">读指纹成功</string>
+    <string name="submitr_fialed">读指纹失败</string>
+
+    <string name="customerNum">客户号</string>
+    <string name="accountType">分类账户类型</string>
+    <string name="cardNum">卡号</string>
+    <string name="cardTypeProduct">卡类型产品</string>
+    <string name="accountTypeProduct">账户类型产品</string>
+    <string name="productChild">产品子类</string>
+    <string name="cardPwd">密码</string>
+    <string name="cardPwd2">确认密码</string>
+    <string name="oldCardPwd">旧密码</string>
+    <string name="newCardPwd">新密码</string>
+    <string name="submit">提交</string>
+    <string name="cancel">关闭</string>
+    <string name="back">返回</string>
+    <string name="readCert">读二代证</string>
+    <string name="search">搜索</string>
+    <string name="select">查询</string>
+
+    <string name="no_cus_id_info">未搜索到客户号信息，请点击</string>
+    <string name="creat_person_cus_id">个人客户号创建</string>
+
+
+    <string name="orgNum">机构号</string>
+    <string name="tellerNum">柜员号</string>
+    <string name="tellerName">柜员姓名</string>
+    <string name="overduePeriods">逾期期数</string>
+    <string name="issuingDate">发放日期</string>
+    <string name="dueDate">到期日期</string>
+    <string name="interval">区间</string>
+    <string name="intervalText">一</string>
+    <string name="classification">五级分类</string>
+    <string name="cardNumber_item">证件号码：</string>
+    <string name="telephoneNumber_item">手机号码：</string>
+    <string name="certName_item">证件类型：</string>
+    <string name="certID_item">证件号码：</string>
+    <string name="customerType_item">客户类型：</string>
+    <string name="customerName_item">客户姓名：</string>
+    <string name="level">评级等级</string>
+    <string name="hold">请输入</string>
+    <string name="name">name</string>
+    <string name="age">age</string>
+    <string name="back_left">&lt;</string>
+    <string name="back_right">返回</string>
+    <string name="customer_list">客户查询结果</string>
+    <string name="customer_details">客户查询详情</string>
+    <string name="business_list">业务查询结果</string>
+    <string name="business_details">信贷业务查询详情</string>
+    <string name="relationName">与该客户关系：</string>
+    <string name="userName">登记人：</string>
+    <string name="orgName">登记机构：</string>
+    <string name="inputDate">输入日期：</string>
+    <string name="updateDate">更新日：</string>
+    <string name="telephone">联系电话：</string>
+    <string name="officeTime">任职时间：</string>
+    <string name="practitionerTime">从业时间：</string>
+    <string name="mobile_num">手机号码：</string>
+
+    <!--hint-->
+    <string name="hint_mobile_num">请输入手机号码</string>
+    <string name="hint_cus_name">请输入您的姓名</string>
+    <string name="hint_cert_num">请输入证件号码</string>
+    <string name="hint_cus_id">请输入客户号</string>
+    <string name="hint_card_num">请输入卡号</string>
+    <string name="hint_card_password">请输入卡号密码</string>
+    <string name="hint_card_passwords">请再次输入卡号密码</string>
+    <string name="hint_old_card_password">请输入卡号旧密码</string>
+    <string name="hint_new_card_password">请输入卡号新密码</string>
+    <string name="hint_cert_issued_start">请输入证件签发日期</string>
+    <string name="hint_cert_issued_end">请输入证件到期日期</string>
+    <string name="hint_card_type_product">请输入账户类型产品</string>
+    <string name="hint_cus_add_info">请输入家庭详细地址地址</string>
+    <string name="hint_telephone_num">请输入移动电话</string>
+    <string name="hint_postal_code">请输入邮政编码</string>
+    <string name="hint_teller_id">请输入柜员号</string>
+    <string name="hint_org_id">请输入机构号</string>
+    <string name="hint_terminal_id">请输入终端号</string>
+    <string name="hint_teller_finger">请输入柜员指纹</string>
+    <string name="hint_authorize_teller_num">请输入授权柜员号</string>
+    <!---卡激活短信签约-->
+    <string name="card_message_sign">卡短信签约</string>
+    <string name="sign_account">签约账号：</string>
+    <string name="sign_card_number">签约卡号：</string>
+    <string name="hint_password">输入密码：</string>
+    <string name="user_name">户名：</string>
+    <string name="mobbile">手机：</string>
+    <string name="sign_telephone_number">签约手机个数：</string>
+    <string name="charge_standards">收费标准：</string>
+    <string name="free_month">免费月数：</string>
+    <string name="balance_charge_lowerlimit">余额变动下限：</string>
+    <string name="balance_remind_lowerlimit">余额提醒下限：</string>
+    <string name="is_show_free">是否显示余额：</string>
+    <!---卡激活短信签约-->
+    <!---手机银行签约开始-->
+    <string name="mobile_bank_sign">手机银行签约</string>
+    <string name="contact_address">联系地址：</string>
+    <string name="email">电子邮箱：</string>
+    <string name="customer_manager_no">客户经理编号：</string>
+    <string name="customer_manager_name">客户经理姓名：</string>
+    <string name="sign_account_list">签约账号列表：</string>
+    <string name="add_account">添加账号：</string>
+    <string name="open_status">开通状态：</string>
+    <string name="english_name">英文名称：</string>
+    <string name="login_password">登录密码：</string>
+    <string name="trans_password">交易密码：</string>
+    <string name="qk_password">取款密码:</string>
+    <string name="open_status_content">手机银行未开通  网上银行未开通</string>
+    <string name="sign_account1">签约账户：</string>
+    <string name="account_type">账号类型：</string>
+    <string name="pinzhen_type">凭证类型：</string>
+    <string name="day_ljxe">日累计限额：</string>
+    <string name="dbex">单笔限额：</string>
+    <string name="day_ljbs">日累计笔数：</string>
+    <string name="year_ljxe">年累计限额：</string>
+    <string name="clear">清除</string>
+    <string name="qudao">渠道</string>
+    <string name="account">账号</string>
+    <!---手机银行签约结束-->
+    <string name="serverIP">IP地址:</string>
+    <string name="serverPort">IP端口:</string>
+    <string name="back_clip">背夹获取数据</string>
+    <string name="print_info">打印凭证</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="transState">交易成功完成</string>
+
+    <!--握奇打印机-->
+    <string name="app_title">蓝牙打印机测试程序</string>
+
+    <!--BTPrinterDemo-->
+    <string name="send">发送</string>
+    <string name="Print">打印</string>
+    <string name="Clear">清空</string>
+    <string name="not_connected">请先连接蓝牙打印机（菜单->连接）</string>
+    <string name="bt_not_enabled_leaving">蓝牙没有启动，退出程序</string>
+    <string name="title_connecting">正在连接…</string>
+    <string name="title_connected_to">已连接: </string>
+    <string name="title_not_connected">没有连接</string>
+    <string name="default_font_gray_scale">4</string>
+    <string name="fontGrayscaleName">打印灰度</string>
+    <string name="fontGrayScaleRange">(1~8)</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">扫描设备…</string>
+    <string name="select_device">选择连接的设备</string>
+    <string name="none_paired">没有匹配的设备</string>
+    <string name="none_found">没有找到设备</string>
+    <string name="title_paired_devices">匹配的设备</string>
+    <string name="title_other_devices">其它可用设备</string>
+    <string name="button_scan">扫描设备</string>
+
+    <!-- Options Menu -->
+    <string name="connect">连接</string>
+    <string name="disconnect">断开</string>
+</resources>

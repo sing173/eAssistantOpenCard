@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 凭卡号查询短信签约限免期限 -->
+<MsgFieldList>
+    <MsgField id="HB_Duration" length="2" type="A_String" default="" />	<!-- 免费月数 -->
+</MsgFieldList>

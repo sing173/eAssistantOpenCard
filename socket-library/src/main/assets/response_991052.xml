@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 柜员签到交易 -->
+<MsgFieldList>
+    <MsgField id="HB_tellerNo" length="20" type="A_String" default="" />	<!-- 柜员姓名 -->
+</MsgFieldList>

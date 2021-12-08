@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 柜员精准信息查询-->
+<MsgFieldList>
+    <MsgField id="MNG_userkindno" length="3" type="A_String" default="" />    <!-- 柜员类型编号 -->
+    <MsgField id="MNG_Tlrname" length="40" type="A_String" default="" />    <!-- 柜员姓名 -->
+    <MsgField id="MNG_cardno" length="40" type="A_String" default="" />    <!-- 柜员卡号 -->
+    <MsgField id="MNG_Tlrstat" length="1" type="A_String" default="" />    <!-- 柜员状态 -->
+    <MsgField id="MNG_Tlrlv" length="4" type="A_String" default="" />    <!-- 柜员级别 -->
+    <MsgField id="MNG_grpno" length="4" type="N" default="0" />    <!-- 柜组编号 -->
+    <MsgField id="MNG_brchno1" length="5" type="A_String" default="" />    <!-- 柜员所属机构 -->
+    <MsgField id="MNG_brchno2" length="20" type="A_String" default="" />    <!-- 网络中心号 -->
+    <MsgField id="MNG_holidaystarttime" length="14" type="A_String" default="" />    <!-- 休假开始时间 -->
+    <MsgField id="MNG_holidayendtime" length="14" type="A_String" default="" />    <!-- 休假结束时间 -->
+    <MsgField id="MNG_startdate" length="14" type="A_String" default="" />    <!-- 柜员启用时间 -->
+    <MsgField id="MNG_enddate" length="14" type="A_String" default="" />    <!-- 柜员废止时间 -->
+    <MsgField id="MNG_idtype" length="2" type="A_String" default="" />    <!-- 柜员证件类型 -->
+    <MsgField id="MNG_idno" length="30" type="A_String" default="" />    <!-- 柜员证件号码 -->
+    <MsgField id="MNG_address" length="60" type="A_String" default="" />    <!-- 柜员家庭地址 -->
+    <MsgField id="MNG_phoneno1" length="15" type="A_String" default="" />    <!-- 柜员移动电话 -->
+    <MsgField id="MNG_phoneno2" length="15" type="A_String" default="" />    <!-- 柜员固定电话 -->
+    <MsgField id="MNG_email" length="60" type="A_String" default="" />    <!-- 柜员电子邮件 -->
+    <MsgField id="MNG_indate" length="14" type="A_String" default="" />    <!-- 录入时间 -->
+    <MsgField id="MNG_inTlrno" length="7" type="A_String" default="" />    <!-- 录入柜员号 -->
+    <MsgField id="MNG_chkTlrno" length="7" type="A_String" default="" />    <!-- 最近复核柜员 -->
+    <MsgField id="MNG_chkdate" length="14" type="A_String" default="" />    <!-- 最近复核时间 -->
+    <MsgField id="MNG_mainTlrno" length="7" type="A_String" default="" />    <!-- 最近维护柜员 -->
+    <MsgField id="MNG_maindate" length="14" type="A_String" default="" />    <!-- 最近维护时间 -->
+    <MsgField id="MNG_authTlrno1" length="7" type="A_String" default="" />    <!-- 最近维护授权柜员 -->
+    <MsgField id="MNG_authdate" length="14" type="A_String" default="" />    <!-- 最近维护授权时间 -->
+    <MsgField id="MNG_repassdate" length="14" type="A_String" default="" />    <!-- 密码最近修改时间 -->
+
+</MsgFieldList>

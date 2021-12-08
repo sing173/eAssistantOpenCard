@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/ll_sign_id"
+        style="@style/message_sign_linerLayout"
+        android:layout_height="wrap_content">
+
+        <LinearLayout style="@style/message_sign_linerLayout">
+
+            <TextView
+                style="@style/message_sign_textview"
+                android:text="@string/customerName_item" />
+
+            <EditText
+                android:id="@+id/et_customer_Name"
+                style="@style/message_sign__edit"
+                android:enabled="false"
+                android:hint="" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/message_sign_linerLayout">
+            <TextView
+                style="@style/message_sign_textview"
+                android:text="卡产品名称:" />
+
+            <EditText
+                android:id="@+id/et_card_product_name"
+                style="@style/message_sign__edit"
+                android:enabled="false"
+                android:hint="" />
+        </LinearLayout>
+    </LinearLayout>
+        <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+        <TableRow
+            style="@style/common_tablerow">
+
+            <TextView
+                android:id="@+id/tv_password"
+                style="@style/common_tablerow_text"
+                android:gravity="right"
+                android:text="旧密码"/>
+
+            <EditText
+                android:id="@+id/card_password"
+                style="@style/common_tablerow_edit"
+                android:hint="请输入旧密码"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:inputType="textPassword"
+                />
+            <Button
+                android:id="@+id/read_card_password"
+                android:layout_marginLeft="8dp"
+                style="@style/common_readbj_button"
+                android:text="@string/read_pwd"/>
+        </TableRow>
+        <TableRow
+            style="@style/common_tablerow">
+
+            <TextView
+                android:id="@+id/tv_comfirepassword"
+                style="@style/common_tablerow_text"
+                android:gravity="right"
+                android:text="新密码"/>
+
+            <EditText
+                android:id="@+id/card_password2"
+                style="@style/common_tablerow_edit"
+                android:hint="请再次输入新密码"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:inputType="textPassword"
+                />
+            <Button
+                android:id="@+id/read_card_password2"
+                android:layout_marginLeft="8dp"
+                style="@style/common_readbj_button"
+                android:text="@string/read_pwd"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tbR_password"
+            style="@style/common_tablerow">
+
+            <TextView
+                android:id="@+id/tv_comfirepassword2"
+                style="@style/common_tablerow_text"
+                android:gravity="right"
+                android:text="确认密码"/>
+
+            <EditText
+                android:id="@+id/card_comfirepassword"
+                style="@style/common_tablerow_edit"
+                android:hint="请再次确认新密码"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:inputType="textPassword"
+                />
+            <Button
+                android:id="@+id/read_card_comfirepassword"
+                android:layout_marginLeft="8dp"
+                style="@style/common_readbj_button"
+                android:text="@string/read_pwd"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

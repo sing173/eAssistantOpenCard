@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 密码验证 -->
+<MsgFieldList>
+    <MsgField id="HB_Pan" length="19" type="A_String" default="" />	<!-- 卡号 -->
+    <MsgField id="HB_Action" length="1" type="A_String" default="N" />	<!-- 二磁校验标识 -->
+    <MsgField id="HB_Track2" length="37" type="A_String" default="N" />	<!-- Track2 -->
+    <MsgField id="HB_ShowButton" length="1" type="A_String" default="Y" />	<!-- 验密标志 -->
+    <MsgField id="HB_PIN" length="16" type="A_String" default="" />	<!-- 密码 -->
+    <MsgField id="HB_CardFlag" length="1" type="A_String" default="N" />	<!-- 卡状态校验标识 -->
+    <MsgField id="HB_TXN_SIGN" length="1" type="A_String" default="E" />	<!-- 功能标识 -->
+    <MsgField id="HB_acc_type" length="4" type="A_String" default="" />	<!-- 账户类型 -->
+    <MsgField id="HB_AccoutSubType" length="4" type="A_String" default="" />	<!-- 账户子类 -->
+    <MsgField id="HB_IND" length="1" type="A_String" default="0" />	<!-- 可读IC卡标识(即校验ARQC标识) -->
+    <MsgField id="HB_IC_CARD_CTR" length="2" type="A_String" default="" />	<!-- 应用主账号序列号 -->
+    <MsgField id="HB_DefaultString3" length="3" type="A_String" default="" />	<!-- 55域长度 -->
+    <MsgField id="HB_filler6" length="255" type="A_String" default="" />	<!-- IC卡芯片信息、对应银联55域数据 -->
+</MsgFieldList>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 卡密码查询 -->
+<MsgFieldList>
+    <MsgField id="HB_CardNumber" length="19" type="A_String" default="" />	<!-- 卡号 -->
+    <MsgField id="HB_CardDesc" length="40" type="A_String" default="" />	<!-- 卡产品名称 -->
+    <MsgField id="HB_customerNo" length="17" type="A_String" default="" />	<!-- 客户号 -->
+    <MsgField id="HB_Name" length="40" type="A_String" default="" />	<!-- 姓名 -->
+    <MsgField id="HB_Address1" length="120" type="A_String" default="" />	<!-- 地址1,详细 -->
+    <MsgField id="HB_Address2" length="20" type="A_String" default="" />	<!-- 地址2,市县 -->
+    <MsgField id="HB_Address3" length="20" type="A_String" default="" />	<!-- 地址3,省份 -->
+    <MsgField id="HB_Address4" length="20" type="A_String" default="" />	<!-- 地址4,国家 -->
+    <MsgField id="HB_postCode" length="8" type="A_String" default="" />	<!-- 邮编号码 -->
+    <MsgField id="HB_cardName1" length="26" type="A_String" default="" />	<!-- 卡名称 -->
+    <MsgField id="HB_cardName2" length="26" type="A_String" default="" />	<!-- 卡名称第二框 -->
+    <MsgField id="HB_cardExpiryDate" length="8" type="A_String" default="" />	<!-- 卡有效期 -->
+    <MsgField id="HB_Bin" length="40" type="A_String" default="" />	<!-- 卡bin -->
+    <MsgField id="HB_issuingIndex" length="1" type="A_String" default="" />	<!-- 卡序号 -->
+    <MsgField id="HB_type" length="5" type="A_String" default="" />	<!-- 卡类型 -->
+    <MsgField id="HB_oldPIN" length="16" type="A_String" default="" />	<!-- 旧密码 -->
+    <MsgField id="HB_firstPIN" length="16" type="A_String" default="" />	<!-- 新密码 -->
+</MsgFieldList>

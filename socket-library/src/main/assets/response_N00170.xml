@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 电子渠道账户信息查询 -->
+<MsgFieldList>
+	<MsgField id="BkCustNo" length="30" type="A_String" default="" />	<!-- 网银客户号 -->
+	<MsgField id="BkName3" length="128" type="A_String" default="" />	<!-- 客户名称 -->
+	<MsgField id="BkSSum" length="4" type="A_String" default="" sub="true">	<!-- 循环笔数 -->
+		<SubField id="BkAcctNo" length="30" type="A_String" default="" />	<!-- 账号 -->
+		<SubField id="BkAcctNo1" length="30" type="A_String" default="" />	<!-- 账号别名 -->
+		<SubField id="BkListNo2" length="30" type="A_String" default="" />	<!-- 开户网点号 -->
+		<SubField id="BkName2" length="100" type="A_String" default="" />	<!-- 开户网点名称 -->
+		<SubField id="BkCurrNo" length="3" type="A_String" default="" />	<!-- 币种 -->
+		<SubField id="BkType1" length="4" type="A_String" default="" />	<!-- 账号类型 -->
+		<SubField id="BkFlag1" length="2" type="A_String" default="" />	<!-- 网银账号状态 -->
+		<SubField id="BkFlag2" length="1" type="A_String" default="" />	<!-- 签约类型 -->
+		<SubField id="BkListNo3" length="30" type="A_String" default="" />	<!-- 账号签约网点 -->
+		<SubField id="BkAmt" length="18" type="AN" default="" />	<!-- 手机单笔限额 -->
+		<SubField id="BkAmt1" length="18" type="AN" default="" />	<!-- 手机日累计限额 -->
+		<SubField id="BkDesc4" length="10" type="A_String" default="" />	<!-- 手机日累计笔数 -->
+		<SubField id="BkAmt3" length="18" type="AN" default="" />	<!-- 手机年累计限额 -->
+	</MsgField>
+</MsgFieldList>

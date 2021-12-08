@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 电子渠道签约 -->
+<MsgFieldList>
+    <MsgField id="BkName1" length="128" type="A_String" default="" />	<!-- 客户名称 -->
+    <MsgField id="BkType2" length="3" type="A_String" default="" />	<!-- 证件类型 -->
+    <MsgField id="BkCertNo" length="30" type="A_String" default="" />	<!-- 证件号码 -->
+    <MsgField id="HB_cutomerNo" length="32" type="A_String" default="" />	<!-- 核心客户号 -->
+    <MsgField id="HB_EngName1" length="30" type="A_String" default="" />	<!-- 英文名称 -->
+    <MsgField id="HB_CustomerLevel" length="1" type="A_String" default="0" />	<!-- 客户级别 -->
+    <MsgField id="BkFlag2" length="1" type="A_String" default="" />	<!-- 是否开通手机银行 -->
+    <MsgField id="BkDesc3" length="10" type="A_String" default="" />	<!-- 手机银行认证方式 -->
+    <MsgField id="BkFlag1" length="1" type="A_String" default="" />	<!-- 是否开通个人网银 -->
+    <MsgField id="BkDesc2" length="10" type="A_String" default="" />	<!-- 个人网银认证方式 -->
+    <MsgField id="HB_phoneno" length="20" type="A_String" default="" />	<!-- 手机号码 -->
+    <MsgField id="HB_Address" length="60" type="A_String" default="" />	<!-- 电子邮箱 -->
+    <MsgField id="HB_Addr1" length="150" type="A_String" default="" />	<!-- 联系地址 -->
+    <MsgField id="HB_PostCode1" length="6" type="A_String" default="" />	<!-- 邮政编号 -->
+    <MsgField id="HB_ContactPhone" length="20" type="A_String" default="" />	<!-- 联系电话 -->
+    <MsgField id="HB_DefaultString2" length="100" type="A_String" default="" />	<!-- 登陆密码 -->
+    <MsgField id="HB_DefaultString222" length="100" type="A_String" default="" />	<!-- 交易密码 -->
+    <MsgField id="BkTeller" length="7" type="A_String" default="" />	<!-- 柜员编号 -->
+    <MsgField id="BkAuthTeller" length="7" type="A_String" default="" />	<!-- 授权员编号 -->
+    <MsgField id="BkBrchNo" length="5" type="A_String" default="" />	<!-- 柜员网点机构号 -->
+    <MsgField id="BkAcctNo" length="30" type="A_String" default="" />	<!-- 账号 -->
+    <MsgField id="BkAcctName" length="30" type="A_String" default="" />	<!-- 账号别名 -->
+    <MsgField id="BkListNo2" length="30" type="A_String" default="" />	<!-- 核心开户网点 -->
+    <MsgField id="BkName2" length="100" type="A_String" default="" />	<!-- 核心开户网点名称 -->
+    <MsgField id="BkCurrNo" length="3" type="A_String" default="" />	<!-- 币种 -->
+    <MsgField id="BkType1" length="3" type="A_String" default="" />	<!-- 账号类型 -->
+    <MsgField id="BkVchType" length="2" type="A_String" default="" />	<!-- 凭证类型 -->
+    <MsgField id="BkAmt" length="18" type="AN" default="" />	<!-- 手机单笔限额 -->
+    <MsgField id="BkAmt1" length="18" type="AN" default="" />	<!-- 手机日累计限额 -->
+    <MsgField id="BkDesc4" length="10" type="A_String" default="" />	<!-- 手机日累计笔数 -->
+    <MsgField id="BkAmt3" length="18" type="AN" default="" />	<!-- 手机年累计限额 -->
+    <MsgField id="BkBreakAmt" length="18" type="AN" default="" />	<!-- 网银单笔限额 -->
+    <MsgField id="BkIntrAmt" length="18" type="AN" default="" />	<!-- 网银日累计限额 -->
+    <MsgField id="BkDesc5" length="10" type="A_String" default="" />	<!-- 网银日累计笔数 -->
+    <MsgField id="BkTaxAmt" length="18" type="AN" default="" />	<!-- 网银年累计限额 -->
+</MsgFieldList>

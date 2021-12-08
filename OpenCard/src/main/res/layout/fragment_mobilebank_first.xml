@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/shape">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ScrollView
+            app:layout_heightPercent="95%"
+            app:layout_widthPercent="95%"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+	        >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!--中间动态填充签约信息-->
+
+                <!--中间动态填充签约信息结束：-->
+                <LinearLayout
+                    android:id="@+id/ll_loginPassword"
+                    style="@style/message_sign_linerLayout">
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="8dp"
+                        android:stretchColumns="1">
+
+                        <TableRow
+                            style="@style/common_tablerow">
+
+                            <TextView
+                                style="@style/common_tablerow_text"
+                                android:text="@string/certType"
+                                />
+
+                            <LinearLayout
+                                style="@style/common_lay_bg">
+
+                                <Spinner
+                                    android:id="@+id/certType"
+                                    style="@style/common_rate_edit"
+                                    />
+                            </LinearLayout>
+                        </TableRow>
+
+                        <TableLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TableRow
+                                style="@style/common_tablerow">
+
+                                <TextView
+                                    style="@style/common_tablerow_text"
+                                    android:text="@string/certNumber"/>
+
+                                <EditText
+                                    android:id="@+id/et_certID_item"
+                                    style="@style/common_tablerow_edit"
+                                    android:layout_weight="1"
+                                    android:focusable="false"/>
+
+                                <Button
+                                    android:id="@+id/btn_readCert"
+                                    style="@style/common_readbj_button"
+                                    android:text="@string/readCert"/>
+                            </TableRow>
+                        </TableLayout>
+                        <TableRow
+                            style="@style/common_tablerow">
+
+                            <TextView
+                                style="@style/common_tablerow_text"
+                                android:text="@string/customerName"/>
+
+                            <EditText
+                                android:id="@+id/et_sign_userName"
+                                style="@style/common_tablerow_edit"
+                                android:focusable="true"/>
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+                <android.support.percent.PercentRelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    app:theme="@style/AlertDialog.AppCompat"
+                    android:layout_marginTop="40dp"
+                    >
+
+                    <Button
+                        android:id="@+id/btn_submit"
+                        app:layout_widthPercent="45%"
+                        android:layout_alignParentLeft="true"
+                        style="@style/common_open_card_button"
+                        android:text="@string/submit"
+                        />
+                    <Button
+                        android:id="@+id/btn_back"
+                        app:layout_widthPercent="45%"
+                        android:layout_alignParentRight="true"
+                        style="@style/common_open_card_button"
+                        android:text="清除"
+                        />
+                </android.support.percent.PercentRelativeLayout>
+            </LinearLayout>
+
+        </ScrollView>
+    </android.support.percent.PercentRelativeLayout>
+
+</LinearLayout>

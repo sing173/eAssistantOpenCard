@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 电子渠道个人信息查询 -->
+<MsgFieldList>
+    <MsgField id="BkType2" length="3" type="A_String" default="" />	<!-- 证件类型 -->
+    <MsgField id="BkCertNo" length="30" type="A_String" default="" />	<!-- 证件号码 -->
+    <MsgField id="BkName1" length="128" type="A_String" default="" />	<!-- 客户名称 -->
+</MsgFieldList>

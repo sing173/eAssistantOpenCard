@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 凭卡号查询主账号 -->
+<MsgFieldList>
+    <MsgField id="HB_AccountNo" length="32" type="A_String" default="" />	<!-- 账号 -->
+</MsgFieldList>

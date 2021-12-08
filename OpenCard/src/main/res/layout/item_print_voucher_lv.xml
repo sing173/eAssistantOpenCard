@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:id="@+id/item_voucher_tv_date"
+        style="@style/print_voucher_item_tv_style"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/item_voucher_custId"
+        style="@style/print_voucher_item_tv_style"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/item_voucher_custName"
+        style="@style/print_voucher_item_tv_style"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/item_voucher_certType"
+        style="@style/print_voucher_item_tv_style"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/item_voucher_certNo"
+        style="@style/print_voucher_item_tv_style"
+        android:layout_weight="2"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/item_voucher_cardNo"
+        style="@style/print_voucher_item_tv_style"
+        android:layout_weight="2"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/item_voucher_accountNo"
+        style="@style/print_voucher_item_tv_style"
+        android:layout_weight="2"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/item_voucher_phoneNo"
+        style="@style/print_voucher_item_tv_style"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/item_voucher_cardName"
+        style="@style/print_voucher_item_tv_style"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/item_voucher_chargeStandard"
+        style="@style/print_voucher_item_tv_style"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/item_voucher_limitChangeLowest"
+        style="@style/print_voucher_item_tv_style"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/item_voucher_limitWarnLowest"
+        style="@style/print_voucher_item_tv_style"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/item_voucher_whetherShowLeft"
+        style="@style/print_voucher_item_tv_style"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/item_voucher_serviceProject"
+        style="@style/print_voucher_item_tv_style"
+        android:text=""
+        />
+    <TextView
+        android:id="@+id/item_voucher_branchNo"
+        style="@style/print_voucher_item_tv_style"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/item_voucher_terminalId"
+        style="@style/print_voucher_item_tv_style"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/item_voucher_tellerId"
+        style="@style/print_voucher_item_tv_style"
+        android:text=""
+        />
+
+    <TextView
+        android:id="@+id/item_voucher_printTime"
+        style="@style/print_voucher_item_tv_style"
+        android:text=""
+        />
+    <Button
+        android:id="@+id/item_voucher_printVoucher_Bt"
+        style="@style/print_voucher_item_tv_style"
+        android:text="@string/print_info"
+        android:background="@drawable/common_button_selector"
+        android:gravity="center"
+        android:textColor="#fff"
+        />
+
+</LinearLayout>

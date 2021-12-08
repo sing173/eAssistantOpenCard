@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:background="@color/transparent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="24dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right">
+                <TextView
+                    android:id="@+id/tv_exit"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ic_no"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_cus_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:stretchColumns="1">
+
+                    <TableRow
+                        style="@style/common_tablerow">
+
+                        <TextView
+                            style="@style/common_tablerow_text"
+                            android:text="@string/teller_id"/>
+
+                        <EditText
+                            android:id="@+id/edt_teller_id"
+                            style="@style/common_tablerow_edit"
+                            android:hint="@string/hint_teller_id"
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        style="@style/common_tablerow">
+
+                        <TextView
+                            style="@style/common_tablerow_text"
+                            android:text="@string/org_id"/>
+
+                        <EditText
+                            android:id="@+id/edt_org_id"
+                            style="@style/common_tablerow_edit"
+                            android:hint="@string/hint_org_id"
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        style="@style/common_tablerow">
+
+                        <TextView
+                            style="@style/common_tablerow_text"
+                            android:text="@string/terminal_id"/>
+
+                        <EditText
+                            android:id="@+id/edt_terminal_id"
+                            style="@style/common_tablerow_edit"
+                            android:hint="@string/hint_terminal_id"
+                            />
+                    </TableRow>
+
+                    <TableRow
+                        style="@style/common_tablerow">
+
+                        <TextView
+                            style="@style/common_tablerow_text"
+                            android:text="@string/teller_finger"/>
+
+                        <EditText
+                            android:id="@+id/edt_teller_finger"
+                            style="@style/common_tablerow_edit"
+                            android:hint="@string/hint_teller_finger"
+                            />
+                    </TableRow>
+                </TableLayout>
+
+                <android.support.percent.PercentRelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="40dp"
+                    app:theme="@style/AlertDialog.AppCompat"
+                    >
+
+                    <Button
+                        android:id="@+id/btn_read_finger"
+                        style="@style/common_open_card_button"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:text="@string/read_finger"
+                        app:layout_widthPercent="45%" />
+                    <Button
+                        android:id="@+id/btn_sign_out"
+                        android:layout_alignParentRight="true"
+                        style="@style/common_open_card_button"
+                        android:text="@string/sign_out"
+                        app:layout_widthPercent="45%"
+                        android:background="@color/gray"
+                        android:enabled="false"
+                        />
+                </android.support.percent.PercentRelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

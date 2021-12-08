@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 个人客户基本信息创建 -->
+<MsgFieldList>
+    <MsgField id="HB_CustType" length="2" type="A_String" default="01" />	<!-- 客户类型 -->
+    <MsgField id="HB_CustSubtype" length="3" type="A_String" default="101" />	<!-- 客户子类型 -->
+    <MsgField id="HB_IDType" length="2" type="A_String" default="01" />	<!-- 证件类型 -->
+    <MsgField id="HB_IDNum" length="32" type="A_String" default="" />	<!-- 证件号码 -->
+    <MsgField id="HB_LanguageCode" length="2" type="A_String" default="12" />	<!-- 通讯语言 -->
+    <MsgField id="HB_IDIssueDate" length="8" type="A_String" default="" />	<!-- 证件签发日期 -->
+    <MsgField id="HB_IDExpiryDate" length="8" type="A_String" default="" />	<!-- 证件到期日 -->
+    <MsgField id="HB_LastName" length="40" type="A_String" default="" />	<!-- 姓名 -->
+    <MsgField id="HB_Mobile" length="16" type="A_String" default="" />	<!-- 移动电话 -->
+    <MsgField id="HB_HomeAddr1" length="120" type="A_String" default="" />	<!-- 家庭地址 -->
+    <MsgField id="HB_HomeAddr2" length="20" type="A_String" default="" />	<!-- 区/县 -->
+    <MsgField id="HB_HomeAddr3" length="20" type="A_String" default="" />	<!-- 省/市 -->
+    <MsgField id="HB_HomeAddr4" length="20" type="A_String" default="" />	<!-- 国家 -->
+    <MsgField id="HB_PostCode1" length="8" type="A_String" default="" />	<!-- 邮政编码 -->
+    <MsgField id="HB_Nationality" length="2" type="A_String" default="CN" />	<!-- 国籍 -->
+    <MsgField id="HB_SexCode" length="1" type="A_String" default="" />	<!-- 性别 -->
+    <MsgField id="HB_IsResident" length="1" type="A_String" default="1" />	<!-- 居民/非居民 -->
+    <MsgField id="HB_OccupationCode" length="2" type="A_String" default="" />	<!-- 职业代码 -->
+</MsgFieldList>

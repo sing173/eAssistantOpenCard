@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>	<!-- 验证短信发送 -->
+<MsgFieldList>
+    <MsgField id="BkDesc1" length="11" type="A_String" default="" />	<!-- 手机号 -->
+    <MsgField id="BkDesc2" length="30" type="A_String" default="" />	<!-- 交易办理渠道 -->
+    <MsgField id="BkDetail1" length="100" type="A_String" default="" />	<!-- 交易描述 -->
+    <MsgField id="BkDesc3" length="60" type="A_String" default="" />	<!-- 备注 -->
+</MsgFieldList>
