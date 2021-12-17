@@ -156,7 +156,7 @@ public class AuthorizeActivity extends ParentActivity {
                 case IDCheck.READ_FINGER://读指纹
                     finger = intent.getStringExtra("finger");
 
-                    //ParamUtils.terllerFinger2 = finger;
+                    ParamUtils.terllerFinger2 = finger;
                     tvReadFinger.setVisibility(View.VISIBLE);
 
                     if(!transCode.equals(SocketThread.fingerCheck)) {
@@ -191,6 +191,7 @@ public class AuthorizeActivity extends ParentActivity {
         return transCodeList;
     }
 
+    @Deprecated
     private List<String> initList2(){
         transCodeList=new ArrayList<>();
         transCodeList.add(ViewUtils.getText(edtTellerId));
@@ -200,6 +201,7 @@ public class AuthorizeActivity extends ParentActivity {
         return transCodeList;
     }
 
+    @Deprecated
     private List<String> initList3(){
         transCodeList=new ArrayList<>();
         transCodeList.add(ViewUtils.getText(edtTellerId));

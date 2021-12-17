@@ -391,9 +391,9 @@ public class TranUtil {
         }
         LogUtils.i("--------------authSpecSign--------"+ParamUtils.authSpecSign);
         if(transCode.equals(SocketThread.fingerCheck)||transCode.equals(SocketThread.tellerInfoSearch)){
-            RequestMsgHead2 head2= packMsgHead2(ParamUtils.tellerId,transCode);
+            packMsgHead2(ParamUtils.tellerId,transCode);
         }else {
-            RequestMsgHead head = packMsgHead(transCode, ParamUtils.authSpecSign, ParamUtils.authSeqNo, ParamUtils.authFlag);
+            packMsgHead(transCode, ParamUtils.authSpecSign, ParamUtils.authSeqNo, ParamUtils.authFlag);
         }
         RequestMsgBody body = null;
         try {
@@ -796,9 +796,11 @@ public class TranUtil {
                     responsList.add(result.responseMsgBody.getMsgField("BkName1").getValue());
                     responsList.add(result.responseMsgBody.getMsgField("BkName2").getValue());
                     responsList.add(result.responseMsgBody.getMsgField("BkName3").getValue());
-                }else if(transCode.equals(SocketThread.fingerCheck)){
-
-                }else if(transCode.equals(SocketThread.tellerInfoSearch)){
+                }
+//                else if(transCode.equals(SocketThread.fingerCheck)){
+//
+//                }
+                else if(transCode.equals(SocketThread.tellerInfoSearch)){
                     String s1=result.responseMsgBody.getMsgField("MNG_userkindno").getValue();
                     String s2=result.responseMsgBody.getMsgField("MNG_Tlrname").getValue();
                     String s3=result.responseMsgBody.getMsgField("MNG_cardno").getValue();
